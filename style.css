@@ -1,0 +1,132 @@
+
+@font-face {
+    font-family: sansIR;
+    src: url(./font/IRANSansWeb_Bold.ttf);
+}
+
+body{
+    direction: rtl;
+    font-family: sansIR;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: right;
+    background-image: url(./image/Abstract\ Purple\ Smoke\ Effect\ Background\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpg);
+    background-size: cover;
+    color: rgb(229, 195, 244);
+    font-weight: bolder;
+  
+   
+}
+
+h3{
+    text-align: center;
+}
+
+
+.bg-light{
+    background-color: transparent !important;
+}
+
+
+.form-inline{
+    direction: ltr;
+    margin-right: auto;
+    
+}
+
+
+.form-control{
+    text-align: center;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color:#ff14a1;
+}
+
+
+@media screen and (max-width: 992px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .navbar-light .navbar-nav .nav-link{
+        text-align: right;
+    }
+    .form-inline{
+        direction: rtl;
+        
+    }
+    .button, input, optgroup, select, textarea{
+        margin-left: 10px;
+    
+    }
+}
+
+
+.navbar-expand-sm .navbar-nav{
+    flex-direction: column;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.navbar-dark .navbar-nav .active > .nav-link{
+    color:#ffffff;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link.disabled{
+    color: #ffffff;
+}
+
+.bg-dark{
+    background-color: transparent !important;
+}
+
+p{
+    margin-top: 80px;
+    font-size: 15px;
+}
+
+
+.carousel-inner img {
+    width: 30vw;
+    height: 50vh;
+  }
+.carousel {
+    top: 80px;
+    }
+
+
+.text{
+    font-family: sansIR;
+    justify-content:center;
+}
+
+
+
+a{
+    color: #ff1093;
+}
+a:hover{
+    color: rgb(100, 0, 53);
+}
+
+
+#image1{
+    width: 500px;
+    height: 300px;
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
